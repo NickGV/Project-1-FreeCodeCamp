@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main class="container">
+        <h1 class="title" id="title">FreeCodeCamp Survey Form</h1>
+        <p class="description" id="description">Thank you for taking the time to complete this form.</p>
+        <form action="" id="survey-form" >
+            <div class="form">
+                <label for="name" id="name_label" class="form__title">Name </label>
+                <input class="input_text" type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form">
+                <label for="emai" id="email_label"  class="form__title">Email</label>
+                <input class="input_text" type="email"  id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form">
+                <label for="number" id="number_label"  class="form__title">Age(optional)</label>
+                <input class="input_text" type="number"  id="number" min="10" max="99" placeholder="Age">
+            </div>
+            <div class="form">
+                   <p  class="form__title">what do you do for a living?</p>
+                    <select class="select" id="dropdown">
+                        <option value="">Select your profession</option>
+                        <option value="1">Student</option>
+                        <option value="2">Academic</option>
+                        <option value="3">Professor</option>
+                        <option value="4">Worker</option>
+                        <option value="5">None</option>
+                    </select>
+            </div>
+        
+        
+                <div class="form">
+                    <p class="text  class="form__title"">Do you like programming?</p>
+                    <label for="ofcourse"> <input class="input_radio" type="radio" name="choice" id="ofcourse" value="ofcourse"> Of course</label>
+                </div>
+                <div class="form">
+                    <label for="yes"><input class="input_radio" type="radio" name="choice" id="yes" value="yes"> Yes</label>
+                </div>
+                <div class="form">
+                    <label for="No"><input class="input_radio" type="radio" name="choice" value="no"> No</label>
+                </div>
+                <div class="form">
+                    <label for="I'm not sure"><input class="input_radio" type="radio" name="choice" id="I'm not sure" value="not sure"> I'm not sure</label>
+                </div>
+                <div class="form">
+                    <label for="I take it as a hobbit"><input class="input_radio" type="radio" name="choice" id="I take it as a hobbit" value="hobbit"> I take it as a hobbit</label>
+                </div>
+        
+            <div class="form">
+                <p class="form__title"> What kind of programming do you like?</p>
+                <select class="select" name="" id="">
+                    <option value="">Choose one</option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                    <option value="Full-stack">Full-stack</option>
+                    <option value="Videogame develope">Videogame developer</option>
+                    <option value="Apps developer">Apps developer</option>
+                    <option value="Ai/Machine learning">Ai/Machine learning</option>
+                    <option value="Informatic security">Informatic security</option>
+                </select>
+            </div>
+                <div class="form">
+                    <p class="form__title">what do you like about programming?</p>
+                    <label for="It is very interesting"><input class="input_checkbox"  type="checkbox" name="tastes" id="It is very interesting" value="It is very interesting" value="interesting"> It is very interesting</label>
+                </div>
+                <div class="form">
+                   <label for="Puts me to the test"> <input class="input_checkbox"  type="checkbox" name="tastes" id="Puts me to the test" value="test" > Puts me to the test</label>
+                </div>
+                <div class="form">
+                   <label for="I can create video games"> <input class="input_checkbox"  type="checkbox" name="tastes" id="I can create video games" value="games" > I can create video games</label>
+                </div>
+                <div class="form">
+                   <label for="Create web pages"> <input class="input_checkbox"  type="checkbox" name="tastes" id="Create web pages" value="pages" > Create web pages</label>
+                </div>
+                <div class="form">
+                   <label for="Money"> <input class="input_checkbox"  type="checkbox" name="tastes" id="Money" value="Money"> Money</label>
+                </div>
+                <div class="form">
+                    <label for="I don't know"><input class="input_checkbox"  type="checkbox" name="tastes" id="I don't know" value="idontknow"> I don't know</label>
+                </div>
+                <div class="form">
+                    <label for="All"><input class="input_checkbox" type="checkbox" name="tastes" id="All" value="All"> All</label>
+                </div>
+        
+            <div class="form">
+                <label for="">
+                    <p  class="form__title">Anything else you like?</p>
+                    <textarea class="textarea" name="comment" id="comment" cols="30" rows="10" placeholder="write something else you like..."></textarea>
+                </label>
+            </div>
+            <button class="submit_button" type="submit" name="submit" id="submit">Submit</button>
+        </form>
+        <h2>Thanks for your time</h2>
+    </main>
+
+
+    <footer class="attribution">
+        <p>
+            Coded by <a href="https://github.com/NickGV" target="_blank">NickGV</a>
+            Visit the repositori here: <a href="" target="_blank"></a>
+        </p>
+    </footer>
+</body>
+</html>
+
+
